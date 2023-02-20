@@ -15,7 +15,9 @@ This instruction require ROS to already be installed: [install ROS Noetic](http:
 Uses the ROS implementation written by tien94. [The implementation can be found here.](https://github.com/thien94/orb_slam3_ros)
 
 The instructions are copied from the same repo.
-
+```
+sudo apt install git ros-noetic-catkin python3-catkin-tools
+```
 This package uses ```catkin build```. Tested on Ubuntu 20.04.
 ## 1. Prerequisites
 ### Eigen3
@@ -44,10 +46,11 @@ Technically this package is optional, but is used by default within the project.
 
 Install `hector-trajectory-server` to visualize the real-time trajectory of the camera/imu. Note that this real-time trajectory might not be the same as the keyframes' trajectory.
 ```
-sudo apt install ros-[DISTRO]-hector-trajectory-server
+sudo apt install ros-noetic-hector-trajectory-server
 ```
 ## 2. Installation
 ```
+mkdir catkin_ws .... bla 
 cd ~/catkin_ws/src
 git clone https://github.com/einatomter/orb_u
 cd ../
