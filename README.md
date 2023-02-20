@@ -33,6 +33,7 @@ mkdir build && cd build
 cmake ..
 make
 sudo make install
+sudo ldconfig
 ```
 ### OpenCV
 Check the OpenCV version on your computer (required [at least 3.0](https://github.com/UZ-SLAMLab/ORB_SLAM3)):
