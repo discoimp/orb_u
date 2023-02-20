@@ -10,6 +10,7 @@ Currently only implemented with monocular setups.
 - Implement depth readings with mono-inertial setup
 - Add underwater ORB vocabulary
 - Add prerequisites used in installing ROS + standard packages
+This instruction require ROS to already be installed: [install ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 Uses the ROS implementation written by tien94. [The implementation can be found here.](https://github.com/thien94/orb_slam3_ros)
 
